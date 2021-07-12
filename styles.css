@@ -30,13 +30,13 @@ header {
 
 #cta-background {
     position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url(/images/bg-pattern-intro.svg);
-    background-size: 2000px;
-    background-position: center;
+    left: -20%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(/images/bg-pattern-intro.svg) no-repeat left center;
+    background-size: 1440px;
     z-index: 0;
-    background-repeat: no-repeat;
 }
 
 nav {
@@ -178,8 +178,6 @@ h3 {
     padding: 5rem 0rem;
     text-align: center;
 }
-
-#section-one div {}
 
 #section-one-content {
     max-width: 36rem;
